@@ -5,10 +5,10 @@ int main() {
     int sum = 0;
     int value = 50;
 
-    while (value <=100) {
+    while (sum <= value) {
         sum = sum + value;
         ++sum;
     }
-    std::cout << "The result is" << value;
+    std::cout << "The result is" << " " << sum;
     return 0;
 }
