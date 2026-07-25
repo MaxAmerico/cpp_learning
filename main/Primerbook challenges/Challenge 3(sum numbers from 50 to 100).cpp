@@ -2,13 +2,13 @@
 
 // I am still trying to learn this
 int main() {
-    int sum = 0;
+    int sum = 1;
     int value = 50;
 
-    while (sum <= value) {
-        sum = sum + value;
+    while (sum <= 50) {
+        value = sum + value;
         ++sum;
+        std::cout << "The result is" << " " << value << " ";
     }
-    std::cout << "The result is" << " " << sum;
     return 0;
 }
