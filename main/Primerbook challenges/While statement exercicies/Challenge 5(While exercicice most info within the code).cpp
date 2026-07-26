@@ -4,14 +4,14 @@
 #include <iostream>
 
 int main() {
-    int number1, number2;
+    int number1, number2, sum = 0;
 
      std::cout << "Number 1 and Number 2:";
      std::cin >> number1 >> number2;
       
      std::cout << "The range between " << number1 << " " << "and" << " ";
-     std::cout << number2 << " " << "is" << " ";
-      while(number2 - 1 > number1) {
+     std::cout << number2 << " " << "is" << " " << number1 << " ";
+      while(number2 > number1 ) {
         number1 = number1 + 1;
         std::cout <<  number1 << " ";
       }
