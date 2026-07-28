@@ -1,14 +1,22 @@
 #include <iostream>
 
+//In this challenge, i need to find out the factorial of a number and print your result;
 int main() {
-    int number;
 
-    std::cout << "Choose a number:" << " ";
-    std::cin >> number;
-     std::cout << "The factorial of" << " " << number << " " << "is:" << " ";
-     while(number <  ) {
-      ;
-     }
-     std::cout << number;
+    int number, sum = 1;
+    
       
+     std::cout << "Put the number here -->" << " ";
+     std::cin >> number;
+      int keepval = number;
+     while (sum < keepval) {
+        number = (number * sum);
+        ++sum;
+    }
+    std::cout << "Final result is:" << " " << number;
+    return 0;
 }
+     
+     
+
+     
