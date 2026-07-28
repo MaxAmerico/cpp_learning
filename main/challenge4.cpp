@@ -4,16 +4,24 @@
 int main() {
 
     int number, sum = 1;
-    
-      
      std::cout << "Put the number here -->" << " ";
      std::cin >> number;
-      int keepval = number;
+    if (number == 0) {
+        std::cout << "Final result is:" << " " << 1;
+    }
+
+    
+    else {
+        int keepval = number;
      while (sum < keepval) {
         number = (number * sum);
         ++sum;
+
     }
+      
+    
     std::cout << "Final result is:" << " " << number;
+}
     return 0;
 }
      
