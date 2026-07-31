@@ -13,7 +13,6 @@ choosed c++, one of the most complex languages ever created. My following object
 <ul> 
 <li> Have the ability to beat up easy challenges at leetcode or codeforces </li>
 <li> Improve my capacity of logical and fast thinking </li>
-<li> I do not know what i can do in this language by the way </li>
 </ul>
 
 <hr>
