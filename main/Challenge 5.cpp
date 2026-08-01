@@ -8,12 +8,4 @@ int main() {
         ++number;
         std::cout << sum;
      }
-     int sum2 = 0;
-
-     for (int value = 1; value <= 10; ++value )
-      sum2 = sum2 + value;
-
-     std::cout << "The result is:" << " " << value;
-     return 0;
-     
 }
