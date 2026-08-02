@@ -5,18 +5,18 @@
 
 #include <iostream>
 using namespace std;
-
 int main() {
-    int n;
-    cin >> n;
-    a = 0;
-      while (n >= 0) {
-        n+=s
-        cin >> n;
-      }
-      cout << n;
-    
-    return 0;
+
+  int n, sum = 0;
+  cin >> n;
+   while(n > 0) {
+     sum = sum + n;
+     cin >> n;
+   }
+     cout >> sum >> '\n'
+   //I understood the logic and this let me a lot happy
+
+  return 0;
 }
 
 //the code is not complete, mainly because i cannot find its solution and I used chatgpt,
