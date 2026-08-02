@@ -1,6 +1,6 @@
 <h1> Learning c++ from scratch </h1>
 
-<img src=(image-1.png) alt="Cpp symbol">
+<img src=(image.png) alt="Cpp symbol">
 
 <hr>
 
