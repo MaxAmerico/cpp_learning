@@ -1,8 +1,8 @@
 #include <iostream>
 int main() {
     int sum = 0;
-    for (int n; n >= 10; --n) {
-      sum = number - sum;
+    for (int n = 10; n >= 1; --n) {
+      sum = n - sum;
       ++sum;
     }
     return 0;
