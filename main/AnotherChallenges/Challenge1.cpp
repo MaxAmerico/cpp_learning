@@ -13,7 +13,7 @@ int main() {
      sum = sum + n;
      cin >> n;
    }
-     cout >> sum >> '\n'
+     cout << sum << '\n';
    //I understood the logic and this let me a lot happy
 
   return 0;
