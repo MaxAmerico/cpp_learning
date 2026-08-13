@@ -8,7 +8,4 @@ int main() {
     int n;
     cin >> n;
 
-    while ()
-    return 0;
-}
 //I can't do this too.
